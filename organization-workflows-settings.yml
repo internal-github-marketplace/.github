@@ -1,5 +1,5 @@
 workflows_repository: our-organization-workflows
 include_workflows_repository: false
-include:
+exclude:
   repositories:
-  - .github
+  - *
