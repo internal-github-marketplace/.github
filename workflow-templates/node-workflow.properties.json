@@ -1,9 +1,9 @@
 {
-    "name": "Octo Organization Workflow Sample2",
-    "description": "Octo Organization CI starter workflow.",
+    "name": "M&S - Node starter Workflow",
+    "description": "DigitalInnovation Organization Node CI/CD starter workflow.",
     "iconName": "octocat",
     "categories": [
-        "Java"
+        "Node"
     ],
     "filePatterns": [
         "package.json$",
