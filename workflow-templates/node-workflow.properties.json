@@ -1,7 +1,7 @@
 {
     "name": "M&S - Node starter Workflow",
     "description": "DigitalInnovation Organization Node CI/CD starter workflow.",
-    "iconName": "octocat",
+    "iconName": "node",
     "categories": [
         "Node"
     ],
