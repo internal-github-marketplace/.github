@@ -1,4 +1,4 @@
-name: Octo Organization CI
+name: Java Starter Workflow
 
 on:
   push:
