@@ -8,6 +8,17 @@ jobs:
   copy-file:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
+      with: 
+        repository: internal-github-marketplace/test
+        ref: ${{ github.head_ref }}
+        
     - uses: trilom/file-changes-action@v1.2.4
-      id: file_changes    
+      id: file_changes 
+  get-pr-details:
+    runs-on: ubuntu-latest
+    steps:
+    - name: get-pr
+      run: |
+        echo ${{ github.head_ref }}
+  
