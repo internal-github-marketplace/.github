@@ -26,7 +26,7 @@ jobs:
         with:
           repository: internal-github-marketplace/.github
           token: ${{ secrets.PAT_TOKEN }} 
-          ref: $default-branch 
+          #ref: $default-branch 
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
