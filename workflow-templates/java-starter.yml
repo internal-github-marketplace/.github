@@ -24,7 +24,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
         with:
-          repository: internal-github-marketplace/.github
+          repository: internal-github-marketplace/sonarcloud-github-action
           token: ${{ secrets.PAT_TOKEN }} 
           #ref: $default-branch 
 
